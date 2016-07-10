@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
     private GoogleApiClient mGoogleApiClient;
+
     private DatabaseReference mFirebaseDatabaseReference;
     FirebaseStorage storage = FirebaseStorage.getInstance();
 
